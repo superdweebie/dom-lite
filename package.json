@@ -1,0 +1,14 @@
+{
+    "name": "dom-lite",
+    "version":"0.0.1",
+    "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/superdweebie/dom-lite"
+    },
+    "dependencies": {
+        "htmlparser2"  : "http://github.com/fb55/htmlparser2/tarball/4c33da4b44ebb0d8d7f0d3ed2dffb250d00a5570"
+    },
+    "description": "Experimental fast and lite DOM for node.js",
+    "keywords": ["JavaScript", "Node.js", "DOM"],
+    "homepage": "http://zoopcommerce.github.io/havok"
+}
