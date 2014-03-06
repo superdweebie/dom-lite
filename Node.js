@@ -222,7 +222,7 @@ Node.prototype.querySelectorAll = function(queryString){
             if (testFunc(node)) result.push(node);
             node.children.forEach(search);
         };
-    search(this);
+    this.children.forEach(search);
 
     return result;
 }
