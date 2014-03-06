@@ -1,4 +1,4 @@
-var Parser = require('./htmlparser3/Parser'),
+var Parser = require('htmlparser2').Parser,
     Dom = require('./Dom');
 
 exports.parse = function(rawHtml, callback){
