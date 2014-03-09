@@ -51,7 +51,7 @@ Element.prototype.getElementsByTagName = function(tagName){
             if (node.tagName == tagName) result.push(node);
             node.children.forEach(search);
         }
-    search(this);
+    this.children.forEach(search);
     return result;
 };
 
